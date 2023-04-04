@@ -1,0 +1,84 @@
+header{
+    padding-top: 30px;
+    h1{
+        font-weight: bold;
+        color: #fff;
+        span{
+            color: #CA2D2D;
+        }
+    }
+    nav{
+        padding-top: 20px;
+    }
+    ul{
+        gap: 60px;
+    }
+    li a{
+        color: #B0B0B0;
+        font-weight: normal;
+        font-size: 20px;
+        transition-duration: 0.4s;
+    }
+    li :hover{
+        color: #CA2D2D;
+    }
+    .header-contact-btn{
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #B0B0B0;
+        border-radius: 25px;
+        color: #006DAA;
+        font-weight: bold;
+        transition-duration: 0.3s;
+    }
+    .contact-btn :first-child :hover{
+        background-color: #CA2D2D;
+        color: #fff;
+        border: 2px solid transparent;
+    }
+}
+main{
+    padding-top: 100px;
+    h1{
+        color: #fff;
+        font-weight: bold;
+        font-size: 60px;
+        padding-bottom: 20px;
+      }
+      p{
+        color: #B0B0B0;
+        font-weight: normal;
+        font-size: 15px;
+        margin-bottom: 50px;
+      }
+      .order-site-btn button{
+          width: 180px;
+          height: 45px;
+          background-color: #AD00FF;
+          color: #fff;
+          border: 2px solid transparent;
+          border-radius: 20px;
+          font-weight: normal;
+          transition-duration: 0.3s;
+      }
+      .order-site-btn :first-child :hover{
+        background-color: transparent;
+        border: 2px solid #AD00FF;
+      }
+      .main-contact-btn button{
+        width: 180px;
+        height: 45px;
+        background-color: transparent;
+        color: #B0B0B0;
+        border: 2px solid #B0B0B0;
+        border-radius: 20px;
+        font-weight: normal;
+        transition-duration: 0.3s;
+      }
+     .main-contact-btn :first-child :hover{
+        background-color: #AD00FF;
+        border: 2px solid transparent;
+        color: #fff;
+     }
+    }
