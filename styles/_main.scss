@@ -20,7 +20,7 @@ header{
         transition-duration: 0.4s;
     }
     li :hover{
-        color: #CA2D2D;
+        color: #2A94E9;
     }
     .header-contact-btn{
         width: 150px;
@@ -33,13 +33,13 @@ header{
         transition-duration: 0.3s;
     }
     .contact-btn :first-child :hover{
-        background-color: #CA2D2D;
+        background-color: #2A94E9;
         color: #fff;
         border: 2px solid transparent;
     }
 }
 main{
-    padding-top: 100px;
+    padding-top: 90px;
     h1{
         color: #fff;
         font-weight: bold;
@@ -55,7 +55,7 @@ main{
       .order-site-btn button{
           width: 180px;
           height: 45px;
-          background-color: #AD00FF;
+          background-color: #2A94E9;
           color: #fff;
           border: 2px solid transparent;
           border-radius: 20px;
@@ -64,7 +64,7 @@ main{
       }
       .order-site-btn :first-child :hover{
         background-color: transparent;
-        border: 2px solid #AD00FF;
+        border: 2px solid #2A94E9;
       }
       .main-contact-btn button{
         width: 180px;
@@ -77,8 +77,47 @@ main{
         transition-duration: 0.3s;
       }
      .main-contact-btn :first-child :hover{
-        background-color: #AD00FF;
+        background-color: #2A94E9;
         border: 2px solid transparent;
         color: #fff;
      }
+     .programming-img{
+        width: 500px;
+        height: 500px;
+        background-image: url(/images/main-imgs/programming.png);
+     }
+     padding-bottom: 80px;
+    }
+    .newsletter{
+        background-image: url(/images/main-imgs/plane.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: right;
+        p{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .newsletter-email{
+            width: 50%;
+            height: 50px;
+            outline: none;
+            border: none;
+            border-radius: 30px;
+            padding: 20px;
+            background-color: #57aff7;
+            color: #fff;
+            font-style: italic;
+        }
+        ::placeholder{
+            color: #fff;
+        }
+        .newsletter-submit{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background-color: #fff;
+            color: #000;
+            margin-top: 30px;
+        }
+        padding-bottom: 90px;
     }

@@ -22,7 +22,7 @@ header li a {
   transition-duration: 0.4s;
 }
 header li :hover {
-  color: #CA2D2D;
+  color: #2A94E9;
 }
 header .header-contact-btn {
   width: 150px;
@@ -35,13 +35,14 @@ header .header-contact-btn {
   transition-duration: 0.3s;
 }
 header .contact-btn :first-child :hover {
-  background-color: #CA2D2D;
+  background-color: #2A94E9;
   color: #fff;
   border: 2px solid transparent;
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 main h1 {
   color: #fff;
@@ -58,7 +59,7 @@ main p {
 main .order-site-btn button {
   width: 180px;
   height: 45px;
-  background-color: #AD00FF;
+  background-color: #2A94E9;
   color: #fff;
   border: 2px solid transparent;
   border-radius: 20px;
@@ -67,7 +68,7 @@ main .order-site-btn button {
 }
 main .order-site-btn :first-child :hover {
   background-color: transparent;
-  border: 2px solid #AD00FF;
+  border: 2px solid #2A94E9;
 }
 main .main-contact-btn button {
   width: 180px;
@@ -80,9 +81,51 @@ main .main-contact-btn button {
   transition-duration: 0.3s;
 }
 main .main-contact-btn :first-child :hover {
-  background-color: #AD00FF;
+  background-color: #2A94E9;
   border: 2px solid transparent;
   color: #fff;
+}
+main .programming-img {
+  width: 500px;
+  height: 500px;
+  background-image: url(/images/main-imgs/programming.png);
+}
+
+.newsletter {
+  background-image: url(/images/main-imgs/plane.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 90px;
+}
+.newsletter p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.newsletter .newsletter-email {
+  width: 50%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #57aff7;
+  color: #fff;
+  font-style: italic;
+}
+.newsletter ::-moz-placeholder {
+  color: #fff;
+}
+.newsletter ::placeholder {
+  color: #fff;
+}
+.newsletter .newsletter-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  margin-top: 30px;
 }
 
 body {
